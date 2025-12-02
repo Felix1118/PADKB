@@ -32,4 +32,7 @@ python3 inference.py --model_path ./model.tar.gz \
 
 The required pre-trained weights, specifically the .tar.gz archive files, are available for download from the following website [PhysioNet](https://physionet.org/content/radgraph/1.0.0/).
 
-## 
+## Filter Entities labeled as absent (OBS-DA)
+
+
+Using filter_entities.ipynb, each extracted entity is classified into one of the following categories: Anatomy (ANAT), Observation: Definitely Present (OBS-DP), Observation: Uncertain (OBS-U), and Observation: Definitely Absent (OBS-DA). Entities labeled as absent (OBS-DA) are subsequently filtered out.
