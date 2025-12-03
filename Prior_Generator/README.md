@@ -7,4 +7,4 @@ The patch attention map generation relies on the code and pre-trained weights of
 
 ## Generate Patch Attention Map
 
-Execute [visualize_attention_map.py]() to load the official MGCA pre-trained weights and compute the Prior Patch Attention Map based on the extracted medical entity terms.
+Execute [visualize_attention_map.py](https://github.com/Felix1118/PADKB/blob/main/Prior_Generator/visualize_attention_map.py) to load the official MGCA pre-trained weights and compute the Prior Patch Attention Map based on the extracted medical entity terms.
